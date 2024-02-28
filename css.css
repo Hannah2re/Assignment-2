@@ -1,0 +1,55 @@
+.contents{
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+.overlay{
+position:absolute;
+background:#000000;
+opacity:1;
+left:0;
+right:0;
+top:0;
+bottom:0;
+z-index:1;
+pointer-events: none;
+display: none;
+}
+
+.overlay #helloText {
+position: absolute; 
+top: 25%; 
+left: 30%;
+color: white;
+font-size: 200px;
+}
+
+.listbox{
+background: #EFEFEF;
+position: relative;
+border: 2px solid gray;  
+width: 200px;
+height: 200px;
+margin-top:200px;
+margin-left:auto;
+margin-right:auto; 
+padding: 0px 20px;
+border-radius:10px;
+}
+
+.to-dolist{
+text-align: center;
+}
+
+.span{
+line-height:10;
+}
+
+.lists{
+padding: 5px 5px;
+text-align: left;
+font-size: 18px;
+}
+
+.hide-cursor {
+cursor: none; /* for hide mouse cursor */
+}
